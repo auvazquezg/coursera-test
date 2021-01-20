@@ -1,9 +1,46 @@
-#section-left {
-   float: left;
-   width: 400px;
+* {
+  box-sizing: border-box;
 }
 
-#section-right {
-   float: right;
-   width: 400px;
+section {
+  border: 1px black solid;
+  width: 33.33%;
+  float: left;
+  position: relative;
+  padding: 10px;
+  padding-top: 60px;
+}
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+span p.title {
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  section.first {
+    width: 50%;
+  }
+
+  section.second {
+    width: 50%;
+  }
+  section.third {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    width: 100%;
+  }
 }
