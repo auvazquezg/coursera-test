@@ -1,0 +1,9 @@
+#section-left {
+   float: left;
+   width: 400px;
+}
+
+#section-right {
+   float: right;
+   width: 400px;
+}
