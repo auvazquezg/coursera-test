@@ -2,14 +2,21 @@
   box-sizing: border-box;
 }
 
-section {
-  border: 1px black solid;
-  width: 33.33%;
-  float: left;
-  position: relative;
-  padding: 10px;
-  padding-top: 60px;
+html {
+	background-color: powderblue;
 }
+
+section {
+	background-color: pink;
+	color: black;
+	border: 1px black solid;
+	width: 33.33%;
+	float: left;
+	position: relative;
+	padding: 10px;
+	padding-top: 60px;
+}
+
 p {
   text-align: center;
 }
@@ -22,9 +29,12 @@ h1 {
 
 
 span p.title {
-  font-weight: bold;
-  text-align: center;
+	border: 1px;
+	font-weight: bold;
+	text-align: center;
 }
+
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   section.first {
